@@ -6,6 +6,7 @@ Trabalho #01
 Projete um decodificador 4 bits para display 7 segmentos. A entrada será em código binário.
 
 ▪ Quando o bit na entrada “Seleção de código” for ‘1’ , será apresentado nos LEDR[3..0] a codificação em código gray, se for ‘0’ será binária (ou seja, copiará a entrada dos switch).
+
 ▪ Quando o Enable estiver em ‘1’ o decodificador funcionará normalmente, quando estiver em ‘0’ o display e os LEDR ficarão desligados.
 ▪ Se o Enable estiver em ‘1’ e a entrada estiver em um valor acima de 9, deverá aparecer a letra E ("0110000“) no display, e os LEDR ficarão desligados
 ▪ Pinos:
