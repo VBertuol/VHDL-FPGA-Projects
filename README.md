@@ -37,3 +37,31 @@ Faça um registrador (memória) parametrizada (de 1 até 8 bits), com sinal de c
 
 ![image](https://github.com/VBertuol/VHDL-FPGA-Projects/assets/99759901/117c6557-fa0e-4cef-bfab-b40b67e4f3bc)
 
+Trabalho #03
+
+• Faça um contador que conte o número total de 1’s, o número de 1’s
+mais significativos e o número de 0’s menos significativos de uma
+entrada binária de 8 bits.
+
+• A entrada de 8 bits deve ser nas chaves SW[7-0].
+
+• As saídas devem ser:
+
+• 0’s menos significativos: HEX0;
+
+• 1’s mais significativos: HEX1;
+
+• Total de 1’s : HEX2;
+
+• Requisitos:
+
+• Utilize ao menos uma das estruturas CASE-WHEN ou FOR-LOOP /
+WHILE-LOOP.
+
+• Utilize COMPONENT para pelo menos uma parte do código (display, por
+exemplo), pode ser com ou sem PACKAGE.
+ 
+• Obs. COMPONENT não pode ser instanciado dentro do process.
+
+
+
